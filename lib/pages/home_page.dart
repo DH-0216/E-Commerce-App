@@ -1,3 +1,4 @@
+import 'package:e_commerce_app/components/bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -9,6 +10,9 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      backgroundColor: Colors.grey[300],
+      bottomNavigationBar: MyBottomNavBar(),
+    );
   }
 }
