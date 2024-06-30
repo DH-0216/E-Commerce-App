@@ -110,7 +110,7 @@ class _HomePageState extends State<HomePage> {
               ],
             ),
             const Padding(
-              padding: const EdgeInsets.only(left: 25.0, bottom: 25),
+              padding: EdgeInsets.only(left: 25.0, bottom: 25),
               child: ListTile(
                 leading: Icon(
                   Icons.logout,
